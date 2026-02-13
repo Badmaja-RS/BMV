@@ -1,0 +1,168 @@
+{
+  "names": {
+    "sender": "BADHU",
+    "receiver": "PRACHU"
+  },
+  "theme": {
+    "primaryColor": "#ff7ab2",
+    "secondaryColor": "#ff4d8d",
+    "accentColor": "#ffc0cb",
+    "fontFamily": "Arial, sans-serif"
+  },
+  "content": {
+    "title": "Will you be my Valentine?",
+    "subtitle": "Choose wisely. (The \"No\" button is... shy.)",
+    "yesButtonText": "YES ❤️",
+    "noButtonText": "NO 💔",
+    "successMessage": "💖 YAYYYYY!!! 💖",
+    "successSubtitle": "That's the best decision you've ever made ❤️😘",
+    "giftsTitle": "💝 Your Valentine Gifts 💝",
+    "giftsSubtitle": "Click here for the Valentine gifts, PRACHU",
+    "songsTitle": "Our Love Sounds Like This!🎵",
+    "photosTitle": "Every Moment with You!📸",
+    "letterTitle": "To the Boy I Love most!❤️",
+    "prosConsTitle": "Why You Should Choose me as Your Valentine ❤️",
+    "prosConsSubtitle": "Nothing!!!!"
+  },
+  "media": {
+    "mainBearGif": "/src/assets/cute-bear.gif",
+    "musicBearGif": "/src/assets/music.gif",
+    "comfortBearGif": "/src/assets/dance.gif",
+    "kissBearGif": "/src/assets/thank-you.gif",
+    "photoBearGif": "/src/assets/heart.gif",
+    "loveYouBearGif": "/src/assets/love.gif",
+    "childGif": "/src/assets/baby.gif",
+    "roseBearGif": "/src/assets/konjal.gif",
+    "cookBearGif": "/src/assets/cook.gif",
+    "kissSingleBearGif": "/src/assets/kiss.+3gif",
+    "leftButton": "/src/assets/left-button.png",
+    "rightButton": "/src/assets/right-button.png",
+    "envelopeSeal": "❤️"
+  },
+  "gifts": {
+    "gift1": "/src/assets/gift/gift1.jpg",
+    "gift2": "/src/assets/gift/gift2.jpg", 
+    "gift3": "/src/assets/gift/gift3.jpg"
+  },
+  "couplePhotos": [
+    {
+      "image": "/src/assets/couple_photo/1.jpeg",
+      "caption": "Our first selfie together"
+    },
+    {
+      "image": "/src/assets/couple_photo/2.jpeg", 
+      "caption": "The day our story really started"
+    },
+    {
+      "image": "/src/assets/couple_photo/3.jpeg",
+      "caption": "Our first everything together"
+    },
+    {
+      "image": "/src/assets/couple_photo/4.jpeg",
+      "caption": "Our first everything together"
+    },
+    {
+      "image": "/src/assets/couple_photo/5.jpeg",
+      "caption": "Together, we glow ✨"
+    },
+    {
+      "image": "/src/assets/couple_photo/6.jpeg",
+      "caption": "Your comforting presence"
+    }
+  ],
+  "prosCons": [
+    {
+      "gif": "/src/assets/cook.gif",
+      "text": "I'll cook your fav food like it's my love language 🍳"
+    },
+    {
+      "gif": "/src/assets/comfort-bear.gif", 
+      "text": "Unlimited comfort and care"
+    },
+    {
+      "gif": "/src/assets/cute-bear.gif",
+      "text": "I listen… like actually listen"
+    },
+    {
+      "gif": "/src/assets/kiss.gif",
+      "text": "Unlimited hugs & kisses\n(non-negotiable 😏)"
+    },
+    {
+      "gif": "/src/assets/photo-bear.gif",
+      "text": "Your personal photographer for all the cute moments 📸"
+    },
+    {
+      "gif": "/src/assets/music.gif",
+      "text": "Live singing performances… just for you 🎶😉"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Raanjhanaa",
+      "duration": "4:14",
+      "album": "Raanjhanaa",
+      "artist": "",
+      "cover": "/src/assets/album-covers/Raanjhanaa.jpg",
+      "audio": "/src/assets/songs/Raanjhanaa.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Konja naal Poru",
+      "duration": "5:10", 
+      "album": "Aasai",
+      "artist": "",
+      "cover": "/src/assets/album-covers/aasai.jpg",
+      "audio": "/src/assets/songs/Aasai.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Ay Hairathe",
+      "duration": "06:09",
+      "album": "GURU",
+      "artist": "",
+      "cover": "/src/assets/album-covers/Ay.jpg",
+      "audio": "/src/assets/songs/Ay.mp3"
+    },
+    {
+      "id": 4,
+      "title": "New York",
+      "duration": "6:18",
+      "album": "SOK",
+      "artist": "",
+      "cover": "/src/assets/album-covers/ny.jpg",
+      "audio": "/src/assets/songs/ny.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Singari",
+      "duration": "3:28",
+      "album": "Dude",
+      "artist": "",
+      "cover": "/src/assets/album-covers/singari.jpg",
+      "audio": "/src/assets/songs/Singari.mp3"
+    }
+  ],
+  "letter": {
+    "title": "My Dearest Patootie,",
+    "content": [
+      "I fell for you in a way I never expected, and now every day feels brighter just because you're in it.",
+      "Loving you comes so naturally. It's in your smile, your laugh, and the comfort I feel whenever I'm with you.",
+      "You are my favorite part of every moment, and the best thing that ever happened to me."
+    ],
+    "signature": "Forever yours,\nBadhu"
+  },
+  "navigation": {
+    "backToLove": "Back to Love",
+    "backToGifts": "Back to Gifts",
+    "backToPhotos": "Back to Photos",
+    "backToSongs": "Back to Songs",
+    "backToLetter": "Back to Letter"
+  },
+  "tooltips": {
+    "previous": "Previous",
+    "next": "Next",
+    "play": "Play",
+    "pause": "Pause"
+  }
+}
