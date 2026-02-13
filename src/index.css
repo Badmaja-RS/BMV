@@ -748,6 +748,11 @@ body {
   filter: sepia(0.1) saturate(1.1);
 }
 
+/* ✅ Fix only the 2nd photo cropping */
+.photo-card:nth-child(2) .photo-frame img {
+  object-position: center 180%;
+}
+
 .photo-card:hover .photo-frame img {
   transform: scale(1.08);
   filter: sepia(0.2) saturate(1.2);

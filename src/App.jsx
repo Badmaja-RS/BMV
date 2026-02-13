@@ -575,7 +575,9 @@ const handleSongSelect = useCallback(
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
                 <div className={`photo-frame vintage-${index + 1}`}>
-                  <img src={withBase(photo.image)} alt={`Memory ${index + 1}`} loading="lazy" />
+                  {/*<img src={withBase(photo.image)} alt={`Memory ${index + 1}`} loading="lazy" />*/}
+                  <img src={withBase(photo.image)} alt={`Memory ${index + 1}`} loading="lazy" className={index === 1 ? "photo-img fix-photo-2" : "photo-img"}
+/>
                 </div>
                 <p className="photo-caption">{photo.caption}</p>
               </motion.div>
