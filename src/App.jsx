@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { config } from "./config";
 
 function App() {
+  const withBase = (p) => `${import.meta.env.BASE_URL}${p}`;
   const [noLabel, setNoLabel] = useState("NO 💔");
   const [showHoverPopup, setShowHoverPopup] = useState(false);
   const [showSlidesPopup, setShowSlidesPopup] = useState(false);
