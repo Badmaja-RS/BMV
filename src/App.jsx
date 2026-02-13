@@ -296,7 +296,7 @@ const handleSongSelect = useCallback(
           <p className="subtitle small">{config.content.successSubtitle}</p>
 
           <div className="image-card">
-            <img src={config.media.loveYouBearGif} alt="cute gif" loading="lazy" />
+            <img src={withBase(config.media.loveYouBearGif)} alt="cute gif" loading="lazy" />
           </div>
 
           <motion.div
@@ -362,21 +362,21 @@ const handleSongSelect = useCallback(
             <div className="gift-card" onClick={handleGift1Click}>
               <h3 className="gift-title">Gift 1</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift1} alt="gift 1" loading="lazy" />
+                <img src={withBase(config.gifts.gift1)} alt="gift 1" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift2Click}>
               <h3 className="gift-title">Gift 2</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift2} alt="gift 2" loading="lazy" />
+                <img src={withBase(config.gifts.gift2)} alt="gift 2" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift3Click}>
               <h3 className="gift-title">Gift 3</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift3} alt="gift 3" loading="lazy" />
+                <img src={withBase(config.gifts.gift3)} alt="gift 3" loading="lazy" />
               </div>
             </div>
           </div>
@@ -384,7 +384,7 @@ const handleSongSelect = useCallback(
           {allGiftsOpened ? (
             <div className="all-gifts-opened">
               <div className="love-you-bear-container">
-                <img src={config.media.loveYouBearGif} alt="love you bear" loading="lazy" />
+                <img src={withBase(config.media.loveYouBearGif)} alt="love you bear" loading="lazy" />
               </div>
               <p className="all-gifts-text">
                 Yayyyy!! You opened all the gifts! <br />
@@ -575,7 +575,7 @@ const handleSongSelect = useCallback(
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
                 <div className={`photo-frame vintage-${index + 1}`}>
-                  <img src={photo.image} alt={`Memory ${index + 1}`} loading="lazy" />
+                  <img src={withBase(photo.image)} alt={`Memory ${index + 1}`} loading="lazy" />
                 </div>
                 <p className="photo-caption">{photo.caption}</p>
               </motion.div>
@@ -664,7 +664,7 @@ const handleSongSelect = useCallback(
           transition={{ duration: 0.6, ease: "backOut" }}
         >
           <motion.img
-            src={config.media.mainBearGif}
+            src={withBase(config.media.mainBearGif)}
             alt="cute bear"
             className="card-image"
             loading="lazy"
@@ -788,20 +788,20 @@ const handleSongSelect = useCallback(
                   <h3 className="card-title">💖 Pros</h3>
                   <div className="pros-list">
                     <div className="pro-item">
-                      <img src={slides[currentSlide].gif} alt="pro" className="pro-gif" loading="lazy" />
+                      <img src={withBase(slides[currentSlide].gif)} alt="pro" className="pro-gif" loading="lazy" />
                       <p className="pro-text">{slides[currentSlide].text}</p>
                     </div>
                   </div>
 
                   <div className="pros-nav">
                     <motion.button className="nav-btn" onClick={prevSlide} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                      <img src={config.media.leftButton} alt="previous" className="nav-btn-img" />
+                      <img src={withBase(config.media.leftButton)} alt="previous" className="nav-btn-img" />
                     </motion.button>
                     <span className="slide-indicator">
                       {currentSlide + 1} / {slides.length}
                     </span>
                     <motion.button className="nav-btn" onClick={nextSlide} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                      <img src={config.media.rightButton} alt="next" className="nav-btn-img" />
+                      <img src={withBase(config.media.rightButton)} alt="next" className="nav-btn-img" />
                     </motion.button>
                   </div>
                 </motion.div>
@@ -809,7 +809,7 @@ const handleSongSelect = useCallback(
                 <motion.div className="card cons-card" whileHover={{ y: -5 }} transition={{ duration: 0.3 }}>
                   <h3 className="card-title">❌ Cons</h3>
                   <div className="cons-content">
-                    <img src={config.media.childGif} alt="child" className="cons-gif" loading="lazy" />
+                    <img src={withBase(config.media.childGif)} alt="child" className="cons-gif" loading="lazy" />
                     <p className="cons-text">{config.content.prosConsSubtitle}</p>
                   </div>
                 </motion.div>
