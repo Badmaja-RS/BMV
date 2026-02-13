@@ -426,7 +426,7 @@ const handleSongSelect = useCallback(
                 >
                   <div className="album-art">
                     <img
-                      src={currentSong.cover}
+                      src={withBase(currentSong.cover)}
                       alt="Album Cover"
                       loading="lazy"
                       className="album-image"
